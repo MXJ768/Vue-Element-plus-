@@ -33,31 +33,18 @@
 
 ## 🔄 数据逻辑
 
+
 Mock Data → API调用 → 状态管理 → 组件渲染 → 用户交互 → 状态更新
 
-核心状态管理：
-// 搜索状态
-searchForm: { level: string, dateRange: string[] }
 
-// 表格状态  
-tableData: AlertItem[]     // 告警列表
+###核心状态管理：
 
-loading: boolean           // 加载状态
+<img width="783" height="571" alt="image" src="https://github.com/user-attachments/assets/abfda5e7-ae30-4cd5-a3ca-e31f009e620f" />
 
-pagination: {              // 分页信息
 
-  currentPage: number
-  
-  pageSize: number 
-  
-  total: number
-}
 
-// UI 状态
 
-detailVisible: boolean     // 详情抽屉显示
 
-currentAlert: AlertItem    // 当前选中告警
 
 ###交互逻辑：
 
